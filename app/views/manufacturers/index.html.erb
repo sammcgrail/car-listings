@@ -1,0 +1,12 @@
+<h3>All Manufacturers</h3>
+
+<ol>
+<% @manufacturers.each do |manufacturer| %>
+
+  <li>
+    Name: <%= manufacturer.name %> <br>
+    Country: <%= manufacturer.country %><br>
+  </li>
+<br>
+<% end %>
+</ol>

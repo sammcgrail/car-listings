@@ -15,3 +15,18 @@
  *= require foundation_and_overrides
 
  */
+ h1 {
+   color: darkred;
+   font-family: Open Sans;
+ }
+
+ body {
+   background-image: url("http://subtlepatterns.com/patterns/upfeathers.png");
+   font-family: Open Sans;
+ }
+
+
+
+ .error {
+   color: red;
+ }
